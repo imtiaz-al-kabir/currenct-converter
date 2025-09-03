@@ -20,7 +20,7 @@
       <form>
         <div class="amount">
           <p>Enter Amount</p>
-          <input value="100" type="text" />
+          <input value="100" type="text" id="amount" />
         </div>
         <div class="dropdown">
           <div class="from">
@@ -28,9 +28,7 @@
             <div class="select-container">
               <img src="https://flagsapi.com/US/flat/64.png" />
               <select name="from" id="">
-                <option value="USD">USD</option>
-                <option value="BDT">BDT</option>
-                <option value="AUD">AUD</option>
+               
               </select>
             </div>
           </div>
@@ -39,16 +37,14 @@
             <p>To</p>
             <div class="select-container">
               <img src="https://flagsapi.com/BD/flat/64.png" />
-              <select name="from" id="">
-                <option value="BDT">BDT</option>
-                <option value="USD">USD</option>
-                <option value="AUD">AUD</option>
+              <select name="to" id="">
+              
               </select>
             </div>
           </div>
         </div>
         <div class="msg">1 USD= 125 BDT</div>
-        <button class="btn">Get Exchange Rate</button>
+        <button id="btn" class="btn">Get Exchange Rate</button>
       </form>
     </div>
 
